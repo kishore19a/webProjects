@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'sans-serif';
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222;
+}
+
+.full {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.card {
+    width: 50vw;
+    max-width: 500px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 100px auto 0;
+    text-align: center;
+}
+
+.search {
+    display: flex;
+    justify-content: space-around;
+}
+
+.search input {
+    height: 50px;
+    width: 80%;
+    border-radius: 25px;
+    border-style: hidden;
+    padding: 0px 15px;
+}
+
+.search button {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border-style: hidden;
+    cursor: pointer;
+}
+
+.search button img {
+    width: auto;
+    height: 30%;
+}
+
+.weatherData {
+    display: none;
+}
+
+.temperature {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.city {
+    margin: 20px 0 0;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.otherWeather {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0 0;
+}
+
+.humidity, .windspeed {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.otherWeatherImage {
+    width: auto;
+    height: 40px;
+}
+
+.otherWeatherValue {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.otherWeatherDiv {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-content: center; */
+    /* gap: 20px; */
+}
